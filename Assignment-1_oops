@@ -1,0 +1,39 @@
+Implement an application that accepts marks of 5 subjects and then prints the total and result (pass/fail/supplementary/pass with grace).
+
+Subjects: DCF, UXD, DBMS, OOP, WA
+
+Result: Pass/Fail/Supplementary
+
+Min Marks: 0
+
+Max Marks: 100
+
+Min Passing Marks: 50
+
+Criteria for passing: Less than 50 in zero subjects.
+
+Criteria for failure: Less than 50 in more than one subject.
+
+Criteria for Supplementary: Less than 50 in only one subject.
+
+Print percentage and division
+
+Criteria for division -
+
+The percentage is >=70 : First Division
+
+Percentage between >=60 and <70 : Second Division
+
+Percentage between >=50 and <60 : Third Division
+
+Suppose the student is failing in only one subject. In that one subject if the score is 47/48/49, then allot the required marks, change the score to 50, and print the result as a pass with the grace of  1/2/3 in the respective subject name.
+
+Note: (i) Validations should be applied against data entered by the user.
+
+           (ii) Percentage and division should be printed if the result is passed.
+
+           (iii) In the case of grace,  division and percentage should not be mentioned.
+
+Submission Guideline:
+
+The student needs to submit a .cpp file and a pdf file as discussed in class.
